@@ -1,5 +1,6 @@
 import React from "react"
 import styles from "./Home.module.css"
+import Views from "./Views"
 
 const Home = () => {
   return (
@@ -12,6 +13,9 @@ const Home = () => {
             What you see? The sky is blue, the grass is green. The sun shines
             through the window.
           </p>
+        </div>
+        <div className={styles.views}>
+            <Views/>
         </div>
       </div>
     </div>

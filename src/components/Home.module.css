@@ -1,4 +1,28 @@
+.header{
+    width:50%;
+    margin:2em auto;
+    text-align:center;
+    color:white;
+}
+.title{
+    font-size: 3em;
+    margin-bottom: .5em;
+}
+.subTitle{
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
 
-.red{
-    color:red
+.imageSection{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:10em;
+    margin:5em 0;
+}
+.views{
+    display:flex;
+    justify-content:center;
+}
+.imageSection img{
+    max-width: 100%;
 }
