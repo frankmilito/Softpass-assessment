@@ -26,3 +26,36 @@
 .imageSection img{
     max-width: 100%;
 }
+
+@media screen and (max-width:768px){
+    
+
+.header{
+    width:100%;
+    /* margin:2em ; */
+    text-align:center;
+    color:white;
+}
+.title{
+    font-size: 2em;
+    margin-bottom: .2em;
+}
+.subTitle{
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+.imageSection{
+    grid-template-columns: repeat(1,1fr);
+    gap:2em;
+    margin:5em 0;
+}
+.views{
+    display:flex;
+    justify-content:center;
+    padding:0 2em;
+}
+.imageSection img{
+    max-width: 100%;
+}
+}
